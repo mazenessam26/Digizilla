@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <!-- Main Menu -->
+    <menuitem 
+        id="menu_digizilla_root" 
+        name="Digizilla"
+        sequence="10"
+        web_icon="digizilla_module,static/description/icon.png"/>
+
+    <!-- Submenu -->
+    <menuitem 
+        id="menu_digizilla_records" 
+        name="Digizilla Records"
+        parent="menu_digizilla_root"
+        action="action_digizilla"
+        sequence="10"/>
+
+</odoo>
